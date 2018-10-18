@@ -1,0 +1,22 @@
+<!--
+
+
+
+    ...... Copyright 2018 ARNALDO.VW SOLUTIONS Inc. All Rights Reserved. .........................
+    ...... See the License for the specific language governing permissions .......................
+    ...... and limitations under the License. ....................................................
+
+
+
+-->
+
+<resources>
+    <string name="app_name">STATUS ALUMNO</string>
+
+    <string name="txt_matematicas_v">MATEMATICAS:</string>
+    <string name="txt_fisica_v">FISICA:</string>
+    <string name="txt_programacion_v">PROGRAMACION:</string>
+    <string name="button_calcular_v">CALCULAR</string>
+    <string name="txt_promedio_v">PROMEDIO:</string>
+    <string name="txt_arnaldovw_v">ARNALDO.VW SOLUTIONS</string>
+</resources>

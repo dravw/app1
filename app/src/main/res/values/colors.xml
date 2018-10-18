@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+
+
+    ...... Copyright 2018 ARNALDO.VW SOLUTIONS Inc. All Rights Reserved. .........................
+    ...... See the License for the specific language governing permissions .......................
+    ...... and limitations under the License. ....................................................
+
+
+
+-->
+<resources>
+    <color name="colorPrimary">#050505</color>
+    <color name="colorPrimaryDark">#0598fa</color>
+    <color name="colorAccent">#1b2ed8</color>
+    <color name="color_txt_materias">#060606</color>
+    <color name="color_barra_superior">#03fa66</color>
+    <color name="color_encuadre">#fa0307</color>
+
+</resources>

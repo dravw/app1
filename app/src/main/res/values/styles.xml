@@ -1,0 +1,22 @@
+<!--
+
+
+
+    ...... Copyright 2018 ARNALDO.VW SOLUTIONS Inc. All Rights Reserved. .........................
+    ...... See the License for the specific language governing permissions .......................
+    ...... and limitations under the License. ....................................................
+
+
+
+-->
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_barra_superior</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/color_encuadre</item>
+    </style>
+
+</resources>

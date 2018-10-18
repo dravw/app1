@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_programacion_v"
+        android:textColor="@color/color_txt_materias"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fisica" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_fisica_v"
+        android:textColor="@color/color_txt_materias"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mate" />
+
+    <EditText
+        android:id="@+id/mate"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Ingrese su nota"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mate" />
+
+    <EditText
+        android:id="@+id/fisica"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Ingrese su nota"
+        android:inputType="number"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/programacion"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Ingrese su nota"
+        android:inputType="number"
+        android:textColorHighlight="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/mate"
+        android:layout_width="297dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_matematicas_v"
+        android:textColor="@color/color_txt_materias"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:onClick="Promedio"
+        android:text="@string/button_calcular_v"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/programacion" />
+
+    <TextView
+        android:id="@+id/promedio"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_promedio_v"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="227dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/arnaldovw_v"
+        app:layout_constraintTop_toBottomOf="@+id/promedio"
+        tools:layout_editor_absoluteX="136dp" />
+</android.support.constraint.ConstraintLayout>
